@@ -2,7 +2,7 @@ use std::io;
 
 fn main() {
     println!("Enter your weight (kg): ");
-    let mut input = String::new();
+    let  input = String::new();
 
     io::stdin().read_line(&mut input).unwrap();
 
