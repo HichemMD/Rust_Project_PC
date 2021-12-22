@@ -1,4 +1,4 @@
-use std::{io, string};
+use std::io;
 
 fn main() {
 
@@ -11,7 +11,7 @@ fn main() {
 
 
     io::stdin().read_line(&mut input).unwrap();
-    let weigth: f32= input.trim().purse().unwrap();
+    let weight: f32= input.trim().parse().unwrap();
     let mars_weight = calculate_weight_on_mars(weight);
     println!("Weight on Mars: {}kg", mars_weight);
 
