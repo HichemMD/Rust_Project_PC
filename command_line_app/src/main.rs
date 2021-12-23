@@ -2,7 +2,7 @@ use std::io;
 
 fn main() {
 
-    println!("Enter your weight Please: ");
+    println!("Enter your weight Please (Onlly number): ");
     let mut input = String::new();
 
 
@@ -14,7 +14,6 @@ fn main() {
     let weight: f32= input.trim().parse().unwrap();
     let mars_weight = calculate_weight_on_mars(weight);
     println!("Weight on Mars: {}kg", mars_weight);
-
 
 }
 
