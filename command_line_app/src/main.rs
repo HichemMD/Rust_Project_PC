@@ -19,7 +19,7 @@ fn main() {
 
 
 fn calculate_weight_on_mars(_weight: f32) -> f32 {
-    (_weight / 9.81) * 3.711
+    (_weight / 9.810) * 3.711
 }
 
 
