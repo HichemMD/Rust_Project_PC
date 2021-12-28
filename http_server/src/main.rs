@@ -8,7 +8,7 @@ struct Server {
 }
 impl Server {
     fn new (addr:String)-> Self{
-        Server{
+        Self{
             addr
         }
     }
