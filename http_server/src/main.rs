@@ -13,6 +13,6 @@ impl Server {
         }
     }
     fn run(self){
-        println!("Listening on {}", self.addr)
+        println!("Listening On {}", self.addr)
     }
 }
